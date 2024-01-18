@@ -88,3 +88,14 @@ arr6.unshift(2);
 console.log(arr6);
 
 console.log("Logic 8 completed");
+
+//Logic # 9
+//Array.splice()
+
+let arr7=[1,2,3,4,5];
+
+arr7.splice(1,1,6,9,8);
+
+console.log(arr7);
+
+console.log("Logic 9 completed");
