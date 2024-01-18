@@ -131,3 +131,14 @@ people.shift();   //removing ali
 console.log(people);
 
 console.log("Logic 12 completed");
+
+//Logic # 13
+//To_Do_List
+//adding a task at the start using Unshift()
+
+let list=["Breakfast","University","ComputerClass","TeaTime","Practice","Sleep"];
+list.unshift("morning walk");
+
+console.log(list);
+
+console.log("Logic 13 completed");
