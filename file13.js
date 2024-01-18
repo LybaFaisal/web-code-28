@@ -203,3 +203,18 @@ console.log("The new employee who will lead his team is:"); //adding a new one a
 employee.unshift("Alice");
 console.log(employee);
 console.log("Logic 18 completed");
+
+//Logic # 19
+//Push & Pop
+
+let stack_of_plates=[];
+stack_of_plates.push("Dessert1","Dessert2","Dessert3");
+
+console.log(stack_of_plates);
+//removing one by one
+stack_of_plates.pop();
+console.log(stack_of_plates);
+stack_of_plates.pop();
+console.log(stack_of_plates);
+stack_of_plates.pop();
+console.log(stack_of_plates);
