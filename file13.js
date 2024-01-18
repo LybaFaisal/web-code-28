@@ -53,6 +53,7 @@ console.log(arr3);
 console.log("Logic 5 completed");
 
 //Logic # 6
+//array.pop
 
 let arr4=[1,3,5,7,9,10];
 
@@ -61,3 +62,16 @@ arr4.pop();    //removing last element
 console.log(arr4);
 
 console.log("Logic 6 completed");
+
+//Logic # 7
+//array.shift
+//Opposite to pop();
+//remove the first element in the array
+
+let arr5=[1,2,4,6,8,10,12,14,16,18,20];
+
+arr5.shift();
+
+console.log(arr5);
+
+console.log("Logic 7 completed");
