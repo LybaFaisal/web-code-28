@@ -252,3 +252,17 @@ Task.splice(2,1,"New Task");
 console.log(Task);
 
 console.log("Logic 21 completed");
+
+//Logic # 22
+//Push & Shift
+
+let messages=["Message1","Message2","Message3"];
+console.log(messages);
+messages.push("Hi","How are You?");
+console.log(messages);
+
+//using shift() to remove the oldest message
+
+messages.shift();
+console.log(messages);
+console.log("Logic 22 completed");
