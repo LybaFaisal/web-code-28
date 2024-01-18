@@ -40,3 +40,14 @@ for(let i=0; i<arr2.length-1; i++)
     console.log(arr2[i]);
 }
 console.log("Logic 4 completed");
+
+//Logic # 5
+//array.push
+
+let arr3=[1,2,3,4,5,6,7];
+
+arr3.push("Lyba");
+
+console.log(arr3);
+
+console.log("Logic 5 completed");
