@@ -28,3 +28,15 @@ for(let i=0 ; i<7 ; i++)     //for(let i=0 ; i<arr1.length-1 ; i++)
     console.log(arr1[i]);
 }
 console.log("Logic 3 completed");
+
+//Logic # 4
+
+let arr2= [1,3,4,7,9,11,13,15];
+
+arr2[2]=5; //modifying
+
+for(let i=0; i<arr2.length-1; i++)
+{
+    console.log(arr2[i]);
+}
+console.log("Logic 4 completed");
