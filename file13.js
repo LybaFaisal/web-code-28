@@ -120,3 +120,14 @@ rainbow.pop();
 console.log(rainbow);
 
 console.log("Logic 11 completed");
+
+//Logic # 12
+//shift
+//Remove the first people who have been waiting for so long
+
+let people=["Ali","Ahmad","Sana","Lyba","Amina","Huda"];
+people.shift();   //removing ali
+
+console.log(people);
+
+console.log("Logic 12 completed");
