@@ -218,3 +218,25 @@ stack_of_plates.pop();
 console.log(stack_of_plates);
 stack_of_plates.pop();
 console.log(stack_of_plates);
+
+console.log("Logic 19 completed");
+
+//Logic # 20
+//shift & Unshift
+//pushing firstly
+
+let customers=[];
+customers.push("Customer1","Customer2","Customer3");
+console.log("The customers in the queue are:");
+console.log(customers);
+
+//shifting (removing the 1st)
+customers.shift();
+console.log(customers);
+
+//unshifting (adding at the first)
+customers.unshift("New Customer");
+console.log("After adding new customer");
+console.log(customers);
+
+console.log("Logic 20 completed");
