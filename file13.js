@@ -109,3 +109,14 @@ marks_of_students.push(95);
 console.log(marks_of_students);
 
 console.log("Logic 10 completed");
+
+//Logic # 11
+//pop
+//colours of rainbow
+
+let rainbow=["red","yellow","orange","blue","green","purple","indigo"];
+rainbow.pop();
+
+console.log(rainbow);
+
+console.log("Logic 11 completed");
