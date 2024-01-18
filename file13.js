@@ -240,3 +240,15 @@ console.log("After adding new customer");
 console.log(customers);
 
 console.log("Logic 20 completed");
+
+//Logic # 21
+//splice
+
+console.log("To Do List for today");
+let Task=["t1","t2","Cancelled Task","LastTask"];
+console.log(Task);
+
+Task.splice(2,1,"New Task");
+console.log(Task);
+
+console.log("Logic 21 completed");
