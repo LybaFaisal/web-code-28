@@ -282,3 +282,27 @@ timeline.pop();
 console.log(timeline);
 
 console.log("Logic 23 completed");
+
+//Logic # 24
+//Mixed Array Operations
+
+let Music_Stream= ["song1","song2","song3"];
+
+Music_Stream.push("song4","song5");
+
+console.log(Music_Stream);
+Music_Stream.shift();
+console.log("After removing first:");
+console.log(Music_Stream);
+
+console.log("After adding at first:");
+Music_Stream.unshift("New Song");
+console.log(Music_Stream);
+
+console.log("After removing last:");
+Music_Stream.pop();
+console.log(Music_Stream);
+
+console.log("After replacing song2 with Updated song:");
+Music_Stream.splice(1,1,"Updated Song");
+console.log(Music_Stream);
