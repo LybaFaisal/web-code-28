@@ -75,3 +75,16 @@ arr5.shift();
 console.log(arr5);
 
 console.log("Logic 7 completed");
+
+//Logic # 8
+//Array.Unshift
+//opposite to push();
+//Add element at first
+
+let arr6=[3,5,7,11,13,17,19,23,29];
+
+arr6.unshift(2);
+
+console.log(arr6);
+
+console.log("Logic 8 completed");
