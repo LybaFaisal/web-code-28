@@ -142,3 +142,13 @@ list.unshift("morning walk");
 console.log(list);
 
 console.log("Logic 13 completed");
+
+//Logic # 14
+//Temperature Check By using Splice();
+
+let city_temp=[37,67,98,12,-1,56,-45,34];
+city_temp.splice(2,1,-30);
+
+console.log(city_temp);
+
+console.log("Logic 14 completed");
