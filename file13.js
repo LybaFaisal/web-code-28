@@ -46,8 +46,18 @@ console.log("Logic 4 completed");
 
 let arr3=[1,2,3,4,5,6,7];
 
-arr3.push("Lyba");
+arr3.push("Lyba");      //adding at last
 
 console.log(arr3);
 
 console.log("Logic 5 completed");
+
+//Logic # 6
+
+let arr4=[1,3,5,7,9,10];
+
+arr4.pop();    //removing last element
+
+console.log(arr4);
+
+console.log("Logic 6 completed");
