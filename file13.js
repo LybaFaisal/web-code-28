@@ -190,3 +190,16 @@ queue.shift();
 console.log(queue);
 
 console.log("Logic 17 completed");
+
+//Logic # 18
+//unshift a new employee
+
+console.log("Employees in the company are:");
+let employee=["Max","Plank","Robert","Bohr"];
+console.log(employee);
+
+console.log("The new employee who will lead his team is:"); //adding a new one at start
+
+employee.unshift("Alice");
+console.log(employee);
+console.log("Logic 18 completed");
