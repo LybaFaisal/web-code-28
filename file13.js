@@ -94,8 +94,18 @@ console.log("Logic 8 completed");
 
 let arr7=[1,2,3,4,5];
 
-arr7.splice(1,1,6,9,8);
+arr7.splice(1,1,6,9,8);     //(indexNo,Count,Additon of elements);
 
 console.log(arr7);
 
 console.log("Logic 9 completed");
+
+//Logic # 10
+//push 
+
+let marks_of_students=[100,65,78,23,90];
+marks_of_students.push(95);
+
+console.log(marks_of_students);
+
+console.log("Logic 10 completed");
