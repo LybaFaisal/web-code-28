@@ -162,3 +162,13 @@ music.push("Celestial Beats"); //at end
 console.log(music);
 
 console.log("Logic 15 completed");
+
+//Logic # 16
+//pop(),to remove the last book from the shelf
+
+let Novels=["Namal","Jannat ke pattay","Mushaf","Bakht","Mala"];
+Novels.pop(); //removing the last
+
+console.log(Novels);
+
+console.log("Logic 16 completed");
