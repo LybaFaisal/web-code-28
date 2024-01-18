@@ -306,3 +306,34 @@ console.log(Music_Stream);
 console.log("After replacing song2 with Updated song:");
 Music_Stream.splice(1,1,"Updated Song");
 console.log(Music_Stream);
+
+console.log("Logic 24 completed");
+
+//Logic # 25
+//Mixed Arrays 2
+
+let Books=["BookA","BookB","BookC","BookD","BookE"];
+console.log("The initial books are:");
+console.log(Books);
+
+console.log("After removing last bookE:");
+Books.pop();
+console.log(Books);
+
+console.log("After adding BookX to the first");
+Books.unshift("BookX");
+console.log(Books);
+
+console.log("After adding two new books at the end:");
+Books.push("BookF","BookG");
+console.log(Books);
+
+console.log("After replacing BookY by BookA:")
+Books.splice(1,1,"BookY");
+console.log(Books);
+
+console.log("After removing first book:");
+Books.shift();
+console.log(Books);
+
+console.log("Logic 25 completed");
