@@ -172,3 +172,21 @@ Novels.pop(); //removing the last
 console.log(Novels);
 
 console.log("Logic 16 completed");
+
+//Logic # 17
+//shift()
+
+console.log("Lyba is the first student who has done with her registeration");
+//lets remove her
+
+console.log("There are many students are standing for their registeration");
+let queue=["Lyba","Sana","Saima","Munala","Hamna","Zunaira","Fatima"];
+console.log(queue);
+
+console.log("After  removing Lyba, Girls who have not done their registeration are=");
+
+queue.shift();
+
+console.log(queue);
+
+console.log("Logic 17 completed");
