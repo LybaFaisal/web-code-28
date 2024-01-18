@@ -152,3 +152,13 @@ city_temp.splice(2,1,-30);
 console.log(city_temp);
 
 console.log("Logic 14 completed");
+
+//Logic # 15
+//Music Playlist push()
+
+let music=["Throwback hits","Electronic Escape","feel good vibes","Workout Motivation"];
+music.push("Celestial Beats"); //at end
+
+console.log(music);
+
+console.log("Logic 15 completed");
