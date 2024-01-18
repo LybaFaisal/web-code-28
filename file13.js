@@ -266,3 +266,19 @@ console.log(messages);
 messages.shift();
 console.log(messages);
 console.log("Logic 22 completed");
+
+//Logic # 23
+//Unshift & Pop
+
+let timeline= ["Ancient Civilization"];
+console.log("The outdated timeline in the history:");
+console.log(timeline);
+
+timeline.unshift("Middle Ages");
+console.log(timeline);
+
+console.log("The Updated timeline in the history:");
+timeline.pop();
+console.log(timeline);
+
+console.log("Logic 23 completed");
