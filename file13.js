@@ -403,3 +403,23 @@ console.log(travel);
 travel.pop();
 console.log("Removing the last destination:");
 console.log(travel);
+
+//Logic # 28
+//Mixed Array Op # 5
+
+let recipe_book=[];
+recipe_book.unshift("Special Breakafast");
+console.log("The initial recipe in my book is:");
+console.log(recipe_book);
+
+recipe_book.push("Dessert Delight", "Savory Surprise");
+console.log("The two new recipe in my book:");
+console.log(recipe_book);
+
+recipe_book.shift();
+console.log("After removing the first recipe:");
+console.log(recipe_book);
+
+recipe_book.pop();
+console.log("After removing the last one:");
+console.log(recipe_book);
