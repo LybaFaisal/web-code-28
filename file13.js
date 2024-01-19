@@ -381,3 +381,25 @@ console.log(ecommerce);
 ecommerce.pop();
 console.log("The last item is popped from the last of the catalog:");
 console.log(ecommerce);
+
+//Logic # 27
+//Mixed Op # 4
+//Travel destinations
+
+let travel=[];
+
+travel.unshift("Starting point");
+console.log("Adding a starting point in the journey:");
+console.log(travel);
+
+travel.push("New Destination X", "New Destination Y");
+console.log("Adding two new destinations in the journey:");
+console.log(travel);
+
+travel.shift();
+console.log("Removing the first destination:");
+console.log(travel);
+
+travel.pop();
+console.log("Removing the last destination:");
+console.log(travel);
