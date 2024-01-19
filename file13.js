@@ -337,3 +337,47 @@ Books.shift();
 console.log(Books);
 
 console.log("Logic 25 completed");
+
+//Logic # 26
+//Mixed array operations # 3
+//Managing a catalog of an E-Commerce website
+
+let ecommerce=["itemA","itemB","itemC","itemD","itemE"];
+console.log("The previous catalog of this website is:");
+console.log(ecommerce);
+
+ecommerce.push("itemX","itemY");
+console.log("Adding two new items in the catalog:");
+console.log(ecommerce);
+
+ecommerce.unshift("NewItem");
+console.log("The new item is added to the start by using unshift:");
+console.log(ecommerce);
+
+ecommerce.pop();
+console.log("The last item is popped from the last of the catalog:");
+console.log(ecommerce);
+
+ecommerce.shift();
+console.log("The first item is popped by using shift:");
+console.log(ecommerce);
+
+ecommerce.splice(0,3,"Updated Item-1","Updated Item-2","Updated Item-3");
+console.log("After updating:");
+console.log(ecommerce);
+
+ecommerce.push("ItemP","ItemQ");
+console.log("Adding two new items in the catalog:");
+console.log(ecommerce);
+
+ecommerce.shift();
+console.log("The first item is popped by using shift:");
+console.log(ecommerce);
+
+ecommerce.unshift("NewArrival");
+console.log("The new item is added to the start by using unshift:");
+console.log(ecommerce);
+
+ecommerce.pop();
+console.log("The last item is popped from the last of the catalog:");
+console.log(ecommerce);
